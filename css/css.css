@@ -1,0 +1,138 @@
+:root{
+    --main-color:#ffa500;
+    --sec-color:#f9f9f9;
+}
+/* constant */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* constant */
+body{
+    font-family: "Roboto", sans-serif;
+}
+.title{
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.title h1{
+text-shadow: 0px 1px 1px black;
+}
+.title span{
+    color: var(--main-color);
+}
+/* nav */
+nav{
+height: 85px;
+font-size: 16px;
+font-weight: 550;
+}
+.navbar .navbar-brand{
+font-size: 36px;
+font-weight: 550;
+text-shadow: 0px 1px 1px black;
+}
+.navbar .navbar-brand span{
+color: var(--main-color);
+}
+.navbar-toggler span{
+    color: var(--main-color);
+    border: none;
+}
+.navbar ul{
+    color: black;
+}
+.navbar .li{
+
+}
+.navbar .li:hover{
+    color: white;
+    background-color: var(--main-color);
+}
+.navbar .li a{
+    color: black;
+}
+.btn-outline-success{
+    background-color: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+}
+/* nav */
+/* home */
+.home{
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/images/about-img.png);
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.home .content h3{
+font-size: 38px;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+font-size: 70px;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content span{
+    color: var(--main-color);
+}
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Spain";}
+    20%{content: "United States";}
+    30%{content: "China";}
+    40%{content: "India";}
+    50%{content: "Pakistan";}
+    60%{content: "Italy";}
+    70%{content: "Turkey";}
+    80%{content: "Mexico";}
+    90%{content: "Germany";}
+    100%{content: "United kingdom";}
+} 
+.home .content p{
+    font-weight: bold;
+        text-shadow: 0px 1px 1px black;
+}
+.home .content a{
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: normal;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content a:hover{
+    background-color: var(--main-color);
+    color: white;
+}
+/* home*/
+/* book */
+.book{
+    background-color:var(--sec-color);
+}
+.book .books{
+gap: 20px;
+}
+.book .books div{
+    background-color: white;
+    box-shadow: 0px 5px 9px -5px black;
+    border-radius: 10px;
+    
+}
+.books .book form{
+
+}
+/* book */
