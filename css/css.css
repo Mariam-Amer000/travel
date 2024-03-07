@@ -128,11 +128,36 @@ gap: 20px;
 }
 .book .books div{
     background-color: white;
-    box-shadow: 0px 5px 9px -5px black;
+    box-shadow: 0px 5px 5px -6px black;
     border-radius: 10px;
-    
+    margin-bottom: 15px;
+    border: white;
 }
-.books .book form{
+.book form{
 
+}
+.book input{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    margin-bottom: 37px;
+    border: 1px solid white;
+    height: 35px;
+    padding-left: 12px;
+}
+.books textarea{
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .submit{
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0px 5px 9px -5px black;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
 }
 /* book */
