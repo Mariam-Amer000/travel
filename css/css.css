@@ -27,6 +27,12 @@ text-shadow: 0px 1px 1px black;
 .btn{
     background-color: var(--main-color);
     color: white;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: var(--main-color);
+    color: white;
+    border: var(--main-color);
 }
 /* nav */
 nav{
@@ -226,5 +232,42 @@ gap: 20px;
 }
 /* Gallary */
 /* us */
+.us{
 
+}
+.us .holder{
+gap: 25px;
+grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+}
+.us .holder img{
+    border-radius: 10px;
+}
+.us a{
+    transition: .3s;
+}
+.us a:hover{
+    padding-left: 25px;
+    padding-right: 30px;
+}
 /* us */
+/* footer */
+footer{
+
+}
+footer svg{
+background-color: black;
+    padding: 9px;
+    height: 54px;
+    color: white;
+    font-size: 20px;
+    transition: .5s;
+    height: 200px;
+    border-radius: 6px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+footer svg:hover{
+background-color: var(--main-color);
+color: white;
+}
+/* footer */
